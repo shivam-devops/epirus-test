@@ -2,8 +2,7 @@ name: build and deploy workflow
 'on':
   push:
     branches:
-      - master
-  pull_request:
+      - master  
 jobs:
   Build-Deploy:
     runs-on: '${{ matrix.os }}'
